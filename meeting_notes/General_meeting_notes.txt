@@ -1,0 +1,11 @@
+3/8/2026
+CSI is exposed by the WiFi chipset's firmware, not the OS. Standard Android/iOS WiFi APIs only give you RSSI (a single signal-strength number per packet), not the full per-subcarrier amplitude/phase data you need for CSI-based sensing.
+multipath propagation.
+---------
+
+the four factors that affect the wave is: The only differences are: arrival time, amplitude (weaker), phase, polarization (sometimes)
+Nexmon, ESP CSI
+---------
+
+Raw CSI is messy. There is lots of: hardware noise, timing errors, interference                  The proposal lists several preprocessing steps before machine learning, including phase sanitization, amplitude normalization, sliding windows, PCA, and synchronizing data from multiple receivers.
+---------
