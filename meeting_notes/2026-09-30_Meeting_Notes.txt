@@ -1,0 +1,36 @@
+* removal of 2nd dataset (Zurich)
+* fixed documentation format
+* create a folder and WhatsApp group for papers only
+
+1) performance metrics:
+	* establish a clear way to evaluate the existence (false positives and negatives) of a person
+	* what will identify if the detected object was actually a person
+
+2) paper analysis:
+	* research all papers and evaluate which one is relevant
+	* know publisher, number of citation, etc.
+
+	- search for localization datasets
+	- search for through wall datasets
+	- look at the possibility of doing both through wall and localization 	
+		+ Dataset
+			~ how samples were captured
+			~ number of samples
+			~ sample format			
+
+		+ Hardware
+			~ CSI or RSSI (type of info)
+
+		+ Software	
+			~ simulation software 
+
+3) Dataset, Hardware and software comparison:
+	* evaluate if data given by datasets will be compatible/comparable to real hardware reading (ESP-32) and simulation readings (software)
+
+Tasks:
+*Due date 30/9 at midnight*
+2 --> all look into the papers, search and collect all the relevant ones
+
+*Due date 3/10 at 12 pm and a meeting will be held at 3 pm*
+1 --> Hazem, Ahmed, Habiba
+3 --> Ramzy, Patrick, Rostom, Giovanni
